@@ -1,0 +1,394 @@
+            @font-face {
+                font-family: 'proxima_nova_rgregular';
+                src: url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.eot');
+                src: url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'), url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.woff') format('woff'), url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.ttf') format('truetype'), url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.svg#proxima_nova_rgregular') format('svg');
+                font-weight: normal;
+                font-style: normal;
+            }
+
+            @font-face {
+                font-family: 'proxima_nova_rgbold';
+                src: url('https://litmus.com/fonts/Emails/proximanova-bold-webfont.eot');
+                src: url('https://litmus.com/fonts/Emails/proximanova-bold-webfont.eot?#iefix') format('embedded-opentype'), url('https://litmus.com/fonts/Emails/proximanova-bold-webfont.woff') format('woff'), url('https://litmus.com/fonts/Emails/proximanova-bold-webfont.ttf') format('truetype'), url('https://litmus.com/fonts/Emails/proximanova-bold-webfont.svg#proxima_nova_rgbold') format('svg');
+                font-weight: normal;
+                font-style: normal;
+            }
+
+            * {
+                margin: 0;
+                padding: 0;
+            }
+
+
+            h1 {
+                font-family: 'proxima_nova_rgbold';
+                font-size: 50px;
+                color: #1654A8;
+            }
+
+            h2 {
+                font-family: 'proxima_nova_rgbold';
+                font-size: 40px;
+                color: #1654A8;
+            }
+
+            h3 {
+                font-family: 'proxima_nova_rgbold';
+                font-size: 26px;
+                color: #2B2E34
+            }
+
+            p {
+                font-family: 'proxima_nova_regular';
+            }
+
+            p b {
+                font-family: 'proxima_nova_rgbold';
+                color: #505050
+            }
+
+            li {
+                font-family: 'proxima_nova_regular';
+            }
+
+            a {
+                color: #1654A8;
+                font-family: 'proxima_nova_rgbold';
+            }
+
+            .hero-container {
+                background-image: linear-gradient(to left, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.9)),
+                    url(../assets/herobig.png);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                position: relative;
+                background-blend-mode: overlay;
+
+                height: 39rem;
+            }
+
+
+.hero{
+     margin-top:13rem;
+
+}
+
+            .hero-text {
+
+                text-align: left;
+                width: 30%;
+                position: absolute;
+                top: 50%;
+                right: 34%;
+                transform: translate(-50%, -50%);
+
+            }
+
+            .rate {
+                width: 25rem;
+                height: auto;
+            }
+
+            .carousel-control-prev-icon {
+                height: 26%;
+                top: 33%;
+                width: 86px;
+
+            }
+
+            .carousel-control-next-icon {
+                height: 26%;
+                top: 33%;
+                width: 86px;
+            }
+
+            .profile-subtile {
+                font-family: 'proxima_nova_rgbold';
+            }
+
+
+
+
+            .main-nav a {
+                color: #1654A8;
+                font-family: 'proxima_nova_rgbold';
+                font-size: bold;
+            }
+
+
+            .sub-menu-container {
+                background: linear-gradient(to left, #005DAA, #005DAA);
+            }
+
+            .sub-menu {
+                background: linear-gradient(to left, #005DAA, #005DAA);
+
+
+            }
+
+            .sub-menu a {
+                color: #B8DFF6;
+                font-size: small;
+                font-family: 'proxima_nova_rgbold';
+            }
+
+            .sub-menu a:hover {
+                color: white;
+            }
+
+            .service-container {
+                background: #F2F2F2;
+            }
+
+            .family-container {
+                background: #F2F2F2;
+            }
+
+            .services {
+                background: #F2F2F2;
+            }
+
+            .services button {
+                border: none;
+                background: #F2F2F2;
+                color: #1654A8;
+                font-family: 'proxima_nova_rgbold';
+            }
+
+            .divide {
+                border: 1px solid #1654A8;
+                opacity: 100;
+                margin: 20px 0 20px 4px;
+
+            }
+
+            .card-color-grey {
+                background-color: #F2F2F2;
+                border: none;
+            }
+
+            .card-color-blue {
+                background-color: #B8DFF6;
+                opacity: 1;
+            }
+
+            .card-color-blue h2 {
+                font-size: medium;
+            }
+
+            .other-services-btn {
+                background: #B8DFF6;
+                color: #1654A8;
+                font-family: 'proxima_nova_rgbold';
+                border: none;
+                margin: 5px;
+                padding: 5px;
+            }
+
+            .main-btn {
+                background: #1654A8;
+                color: #B8DFF6;
+                font-size: small;
+                font-family: 'proxima_nova_rgbold';
+                padding: 7px 43px;
+                border-radius: 5px;
+            }
+.benefit-title{
+    color:#1654A8;
+    font-size:large;
+}
+
+            .gray-bg {
+                background: #F2F2F2;
+            }
+
+            .carousel-bg {
+                background: #B8DFF6;
+                opacity: 55;
+            }
+
+            .fa {
+                color: #B8DFF6;
+            }
+
+            .dropdown-menu {
+                background: white;
+            }
+
+            .footer-text p {
+                color: #1654A8;
+                font-family: 'proxima_nova_rgbold';
+                font-size: bold;
+                font-size: small;
+                margin: 10px;
+                margin-right: 0;
+                text-align: right;
+
+            }
+
+            .faq li {
+                font-family: 'proxima_nova_rgbold';
+                font-weight: lighter;
+                list-style-type: none;
+                margin-left: -20px;
+                padding: 4px;
+            }
+
+            .custom-toggler.navbar-toggler {
+                border-color: #1654A8;
+            }
+
+            .custom-toggler.navbar-toggler::after {
+                border-color: #1654A8;
+            }
+
+            .navbar-toggler:focus,
+            .navbar-toggler:active,
+            .navbar-toggler-icon:focus {
+                outline: none;
+                box-shadow: none;
+            }
+
+
+            /* Setting the stroke to green using rgb values (0, 128, 0) */
+
+            .custom-toggler .navbar-toggler-icon {
+                background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 128, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+            }
+
+            .map {
+                min-height: 50vh;
+            }
+
+            .map iframe {
+                object-fit: contain;
+            }
+
+            .carousel-card {
+                background: #B8DFF6;
+                border: none;
+
+            }
+
+            .profile-text {
+                color: #1654A8;
+                font-family: 'proxima_nova_rgbold';
+
+            }
+
+
+            .yellow-divider {
+                border: 10px solid #FAE613;
+                opacity: 100;
+            }
+
+            .laptop-bg {
+                background-image: url(../assets/laptop.png);
+                width: 100%;
+                padding: 0 7%;
+                display: table;
+                margin: 0;
+                max-width: none;
+                height: 40vh;
+
+            }
+
+            .accordion-button {
+                box-shadow: inset 0px 1px 0px 0px #ffffff;
+                background: linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%);
+                background-color: #f9f9f9;
+
+            }
+
+            .accordion-button h3 {
+                font-size: medium;
+
+            }
+
+            .accordion-button:active .accordion-button:focus {
+                border: none;
+            }
+
+            .accordion-body {
+                box-shadow: inset 0px 1px 0px 0px #ffffff;
+                background: linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%);
+                background-color: #f9f9f9;
+            }
+
+            .footer-divider {
+                box-shadow: inset 0px 1px 0px 0px #ffffff;
+                border: 10px solid #005DAA;
+                opacity: 100;
+            }
+
+            @media only screen and (max-width: 960px) {
+                .hero-container {
+                    height: 35rem;
+                }
+
+                
+
+                .rate {
+                    width: 18rem;
+                    height: auto;
+                }
+
+                .laptop-bg {
+
+
+                    width: 100%;
+                    padding: 0 7%;
+                    background-size: cover;
+                    display: table;
+                    margin: 0;
+                    max-width: none;
+                    height: 20vh;
+
+
+                }
+            }
+
+            @media only screen and (max-width: 600px) {
+                .hero-container {
+                    height: 30rem;
+                    text-align: center;
+                    margin: px;
+
+                }
+                .hero{
+     margin-top:50px;
+
+}
+
+               
+
+                .divide {
+                    margin: 0;
+                    margin-top: 50px;
+                    margin-bottom: 50px;
+                    margin-right: -0.2rem;
+                    margin-left: 0;
+                 
+
+                }
+                .services button {
+                    font-size: small;
+            }
+
+                .laptop-bg {
+
+
+                    width: 100%;
+                    padding: 0 7%;
+                    background-size: cover;
+                    display: table;
+                    margin: 0;
+                    max-width: none;
+                    height: 20vh;
+
+
+                }
+
+
+            }
